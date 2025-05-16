@@ -1,4 +1,6 @@
-﻿namespace GeometryLibrary
+﻿using ShapeLibrary.Interfaces;
+
+namespace ShapeLibrary.Classes
 {
     public class ShapeFactory : IShapeFactory
     {

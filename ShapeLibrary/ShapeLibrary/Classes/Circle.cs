@@ -1,4 +1,4 @@
-﻿namespace GeometryLibrary
+﻿namespace ShapeLibrary.Classes
 {
     public class Circle : Shape
     {

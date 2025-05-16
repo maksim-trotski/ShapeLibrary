@@ -1,4 +1,4 @@
-using GeometryLibrary;
+using ShapeLibrary.Classes;
 
 namespace ShapeLibraryTest
 {
@@ -29,13 +29,10 @@ namespace ShapeLibraryTest
         [InlineData(5, 5, 7, false)]
         public void IsRightAngled_ReturnsCorrectResult(double a, double b, double c, bool expected)
         {
-            // Arrange
             var triangle = new Triangle(a, b, c);
 
-            // Act
             bool actual = triangle.IsRightAngled();
 
-            // Assert
             Assert.Equal(expected, actual);
         }
     }

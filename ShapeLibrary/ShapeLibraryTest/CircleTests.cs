@@ -1,4 +1,4 @@
-using GeometryLibrary;
+using ShapeLibrary.Classes;
 
 namespace ShapeLibraryTest
 {
